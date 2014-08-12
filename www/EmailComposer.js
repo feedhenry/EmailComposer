@@ -4,7 +4,7 @@ function EmailComposer() {
 	this.resultCallback = null; // Function
 }
 
-EmailComposer.ComposeResultType = {
+EmailComposer.prototype.ComposeResultType = {
 Cancelled:0,
 Saved:1,
 Sent:2,
